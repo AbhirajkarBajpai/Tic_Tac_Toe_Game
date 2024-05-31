@@ -57,7 +57,7 @@ To run this game, you'll need a modern web browser.
 
 You can also play the game live without setting it up locally. The game is deployed at the following URL:
 
-[Play Customizable Tic-Tac-Toe Live](https://abhirajkarbajpai.github.io/tictactoe)
+[Play Customizable Tic-Tac-Toe Live](https://abhirajkarbajpai.github.io/Tic_Tac_Toe_Game/)
 
 
 ## Contributing
