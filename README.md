@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a customizable Tic-Tac-Toe game where users can define the grid size (n x n) and the win streak (m) needed to win the game. The game is designed to be responsive and can be played on both desktop and mobile devices.
+The Tic-Tac-Toe game provided here is highly customisable, allowing to specify the size of the grid (n x n) as well as the win streak (m) for victory. The game has been designed to be responsive and can be played on both desktop and mobile devices.
 
 ## Features
 
