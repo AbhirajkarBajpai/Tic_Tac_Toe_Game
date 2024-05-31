@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #6B8A7A;
+}
+
+.game {
+    margin-bottom: 20px;
+}
+.game label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.game input {
+    margin-bottom: 1rem;
+    border-radius: .2rem;
+    border-color: #4e8a6b;
+}
+.board {
+    display: grid;
+    gap: 5px;
+    margin: 20px;
+}
+
+#startGameBtn {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#startGameBtn:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+.board button {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.board button.x-move {
+    color: #e9563c; 
+}
+
+.board button.o-move {
+    color: #3f83bb; 
+}
+
+.game-status {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .board button {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
