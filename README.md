@@ -29,12 +29,12 @@ To run this game, you'll need a modern web browser.
 
 ### How to Play
 
-1.aunch the online game in your browser.
-2.Enter a value in the "Grid Size" input field between 3 and 10 to choose the appropriate grid size (n x n).
-3.In the "Win Streak" input area, enter a value between 3 and the selected grid size to set the victory streak (m).
-4.To create the game board, click the "Start Game" button.
-5.Each player clicks on a grid cell in turn to place their mark (X or O).
-6.After every move, the game will determine if it's a win or a draw and show the outcome.
+1. Launch the online game in your browser.
+2. Enter a value in the "Grid Size" input field between 3 and 10 to choose the appropriate grid size (n x n).
+3. In the "Win Streak" input area, enter a value between 3 and the selected grid size to set the victory streak (m).
+4. To create the game board, click the "Start Game" button.
+5. Each player clicks on a grid cell in turn to place their mark (X or O).
+6. After every move, the game will determine if it's a win or a draw and show the outcome.
 
 ### Game Rules
 
