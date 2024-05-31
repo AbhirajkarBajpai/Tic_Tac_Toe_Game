@@ -53,10 +53,11 @@ To run this game, you'll need a modern web browser.
 - Modify the `styles.css` file to change the look and feel of the game.
 - Update the `script.js` file to tweak the game logic or add new features.
 
-## Screenshots
+## Live Deployment
 
-![Screenshot of the game setup](screenshots/setup.png)
-![Screenshot of the game in progress](screenshots/gameplay.png)
+You can also play the game live without setting it up locally. The game is deployed at the following URL:
+
+[Play Customizable Tic-Tac-Toe Live](https://abhirajkarbajpai.github.io/tictactoe)
 
 
 ## Contributing
