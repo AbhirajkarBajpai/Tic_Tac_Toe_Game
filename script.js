@@ -41,7 +41,7 @@ function initializeGame(gridSize, winStreak) {
     if (!isGameActive || gameState[row][col]) return;
     gameState[row][col] = currentPlayer;
     button.innerText = currentPlayer;
-    button.classList.add(currentPlayer === "X" ? "x-move" : "o-move");
+    button.classList.add(currentPlayer === "X" ? "x-move" : (currentPlayer==="O"?"o-move":"y-move"));
 
     if (checkWin(row, col)) {
       isGameActive = false;
@@ -53,7 +53,17 @@ function initializeGame(gridSize, winStreak) {
       document.getElementById("status").innerText = "Draw!";
       return;
     }
-    currentPlayer = currentPlayer === "X" ? "O" : "X";
+    // let isDraw=true;
+    // for (let row = 0; row < gridSize; row++) {
+    //   for (let col = 0; col < gridSize; col++) {
+    //     if(!gameState[row][col]){
+    //       isDraw=false;
+    //     }
+    //   }
+    // }
+    // if(isDraw)
+
+    currentPlayer = currentPlayer === "X" ? "O" : (currentPlayer==="O"?"Y":"X");
   }
 
   function checkWin(row, col) {
