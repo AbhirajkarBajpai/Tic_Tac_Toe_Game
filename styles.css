@@ -73,6 +73,9 @@ body {
 .board button.o-move {
     color: #3f83bb; 
 }
+.board button.y-move {
+    color: #41c97a; 
+}
 
 .game-status {
     font-size: 20px;
@@ -84,5 +87,11 @@ body {
         width: 40px;
         height: 40px;
         font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 732px) {
+    body {
+        flex-direction: column;
     }
 }
